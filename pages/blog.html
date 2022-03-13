@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>home</title>
+    <title>blog</title>
 
     <!-- font awesome cdn link  -->
     <link
@@ -13,13 +13,13 @@
     />
 
     <!-- custom css file link  -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="./../css/style.css" />
   </head>
   <body>
     <!-- header section starts  -->
 
     <header class="header">
-      <a href="home.html" class="logo">
+      <a href="./../home.html" class="logo">
         <i class="fas fa-lightbulb"></i> furni
       </a>
 
@@ -45,12 +45,12 @@
     <!-- navbar  -->
 
     <nav class="navbar">
-      <a href="./pages/home.html">home</a>
-      <a href="./pages/shop.html">shop</a>
-      <a href="./pages/about.html">about</a>
-      <a href="./pages/team.html">team</a>
-      <a href="./pages/blog.html">blog</a>
-      <a href="./pages/contact.html">contact</a>
+      <a href="./../home.html">home</a>
+      <a href="shop.html">shop</a>
+      <a href="about.html">about</a>
+      <a href="team.html">team</a>
+      <a href="blog.html">blog</a>
+      <a href="contact.html">contact</a>
     </nav>
 
     <!-- shopping cart  -->
@@ -58,7 +58,7 @@
     <div class="shopping-cart">
       <div class="box">
         <i class="fas fa-times"></i>
-        <img src="image/cart-img-1.jpg" alt="" />
+        <img src="./../image/cart-img-1.jpg" alt="" />
         <div class="content">
           <h3>morden furniture</h3>
           <span class="quantity"> 1 </span>
@@ -69,7 +69,7 @@
 
       <div class="box">
         <i class="fas fa-times"></i>
-        <img src="image/cart-img-2.jpg" alt="" />
+        <img src="./../image/cart-img-2.jpg" alt="" />
         <div class="content">
           <h3>morden furniture</h3>
           <span class="quantity"> 1 </span>
@@ -80,7 +80,7 @@
 
       <div class="box">
         <i class="fas fa-times"></i>
-        <img src="image/cart-img-3.jpg" alt="" />
+        <img src="./../image/cart-img-3.jpg" alt="" />
         <div class="content">
           <h3>morden furniture</h3>
           <span class="quantity"> 1 </span>
@@ -91,7 +91,7 @@
 
       <div class="box">
         <i class="fas fa-times"></i>
-        <img src="image/cart-img-4.jpg" alt="" />
+        <img src="./../image/cart-img-4.jpg" alt="" />
         <div class="content">
           <h3>morden furniture</h3>
           <span class="quantity"> 1 </span>
@@ -122,79 +122,124 @@
       </form>
     </div>
 
-    <!-- home section starts  -->
-
-    <section class="home">
-      <div class="slides-container">
-        <div class="slide active">
-          <div class="content">
-            <span>new arrivals</span>
-            <h3>flexible chair</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Consequatur quisquam, magnam enim sed debitis perspiciatis.
-            </p>
-            <a href="#" class="btn">shop now</a>
-          </div>
-          <div class="image">
-            <img src="image/home-img-1.png" alt="" />
-          </div>
-        </div>
-
-        <div class="slide">
-          <div class="content">
-            <span>new arrivals</span>
-            <h3>flexible chair</h3>
-            <p>
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit.
-              Consequatur quisquam, magnam enim sed debitis perspiciatis.
-            </p>
-            <a href="#" class="btn">shop now</a>
-          </div>
-          <div class="image">
-            <img src="image/home-img-2.png" alt="" />
-          </div>
-        </div>
-      </div>
-
-      <div id="slide-next" onclick="next()" class="fas fa-angle-right"></div>
-      <div id="slide-prev" onclick="prev()" class="fas fa-angle-left"></div>
+    <section class="heading">
+      <h3>our blogs</h3>
+      <p><a href="./../home.html">home</a> / <span>blog</span></p>
     </section>
 
-    <!-- home section ends -->
+    <section class="blog">
+      <h1 class="title"><span>our blogs</span> <a href="#">view all >></a></h1>
 
-    <!-- banner section starts  -->
-
-    <section class="banner-container">
-      <div class="banner">
-        <img src="image/banner-1.jpg" alt="" />
-        <div class="content">
-          <span>limited offer</span>
-          <h3>upto 50% off</h3>
-          <a href="#" class="btn">shop now</a>
+      <div class="box-container">
+        <div class="box">
+          <div class="image">
+            <img src="./../image/blog-1.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>blog title goes here...</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
+              harum.
+            </p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="banner">
-        <img src="image/banner-2.jpg" alt="" />
-        <div class="content">
-          <span>limited offer</span>
-          <h3>upto 50% off</h3>
-          <a href="#" class="btn">shop now</a>
+        <div class="box">
+          <div class="image">
+            <img src="./../image/blog-2.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>blog title goes here...</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
+              harum.
+            </p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            </div>
+          </div>
         </div>
-      </div>
 
-      <div class="banner">
-        <img src="image/banner-3.jpg" alt="" />
-        <div class="content">
-          <span>limited offer</span>
-          <h3>upto 50% off</h3>
-          <a href="#" class="btn">shop now</a>
+        <div class="box">
+          <div class="image">
+            <img src="./../image/blog-3.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>blog title goes here...</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
+              harum.
+            </p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./../image/blog-4.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>blog title goes here...</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
+              harum.
+            </p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./../image/blog-5.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>blog title goes here...</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
+              harum.
+            </p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="./../image/blog-6.jpg" alt="" />
+          </div>
+          <div class="content">
+            <h3>blog title goes here...</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat,
+              harum.
+            </p>
+            <a href="#" class="btn">read more</a>
+            <div class="icons">
+              <a href="#"> <i class="fas fa-calendar"></i> 21st may, 2021 </a>
+              <a href="#"> <i class="fas fa-user"></i> by admin </a>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
-    <!-- banner section ends -->
 
     <!-- footer section  -->
 
@@ -202,24 +247,12 @@
       <div class="box-container">
         <div class="box">
           <h3>quick links</h3>
-          <a href="./pages/home.html">
-            <i class="fas fa-arrow-right"></i> home</a
-          >
-          <a href="./pages/shop.html">
-            <i class="fas fa-arrow-right"></i> shop</a
-          >
-          <a href="./pages/about.html">
-            <i class="fas fa-arrow-right"></i> about</a
-          >
-          <a href="./pages/team.html">
-            <i class="fas fa-arrow-right"></i> team</a
-          >
-          <a href="./pages/blog.html">
-            <i class="fas fa-arrow-right"></i> blog</a
-          >
-          <a href="./pages/contact.html">
-            <i class="fas fa-arrow-right"></i> contact</a
-          >
+          <a href="./../home.html"> <i class="fas fa-arrow-right"></i> home</a>
+          <a href="shop.html"> <i class="fas fa-arrow-right"></i> shop</a>
+          <a href="about.html"> <i class="fas fa-arrow-right"></i> about</a>
+          <a href="team.html"> <i class="fas fa-arrow-right"></i> team</a>
+          <a href="blog.html"> <i class="fas fa-arrow-right"></i> blog</a>
+          <a href="contact.html"> <i class="fas fa-arrow-right"></i> contact</a>
         </div>
 
         <div class="box">
@@ -256,6 +289,6 @@
     </section>
 
     <!-- custom js file link  -->
-    <script src="js/script.js"></script>
+    <script src="./../js/script.js"></script>
   </body>
 </html>
